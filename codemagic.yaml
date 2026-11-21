@@ -8,12 +8,18 @@ workflows:
       xcode: latest
       cocoapods: default
     scripts:
+      - name: Fix missing android folder
+        script: |
+          flutter create . --platforms=android
       - name: Get Flutter packages
         script: |
-        flutter create . --platforms=android
           flutter packages pub get
       - name: Build APK debug
         script: |
           flutter build apk --debug
     artifacts:
-      - build/app/outputs/flutter-apk/*.apk
+      - build/app/outputs/flutter-apk/app-debug.apk
+    publishing:
+      email:
+        recipients:
+          - youcefche36@gmail.com
