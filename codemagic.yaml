@@ -10,6 +10,7 @@ workflows:
     scripts:
       - name: Get Flutter packages
         script: |
+        flutter create . --platforms=android
           flutter packages pub get
       - name: Build APK debug
         script: |
