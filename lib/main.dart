@@ -37,8 +37,9 @@ class _HomeScreenState extends State<HomeScreen> {
     {'title': 'سورة يس - 15 ثانية من السكينة', 'user': '@noor_quran', 'likes': '25K'},
     {'title': 'دعاء الصباح - ابدأ يومك بذكر الله', 'user': '@doaa_sabah', 'likes': '5.1K'},
     {'title': 'سورة الرحمن - فبأي آلاء ربكما تكذبان', 'user': '@rahman_tilawa', 'likes': '18K'},
+    {'title': 'فأنت تقرأ سورة الكهف', 'username': '@ayat_daily', 'videoUrl': 'https://res.cloudinary.com/jdqsmgw0/video/upload/c5cfd603_Facebook_Video.mp4', 'likes': '1.5K', 'comments': '120', 'shares': '80'},
   ];
-
+{'title': 'فأنت تقرأ سورة الكهف', 'username': '@ayat_daily', 'videoUrl': 'https://res.cloudinary.com/jdqsmgw0/video/upload/c5cfd603_Facebook_Video.mp4', 'likes': '1.5K', 'comments': '120', 'shares': '80'},
   @override
   Widget build(BuildContext context) {
     return Scaffold(
